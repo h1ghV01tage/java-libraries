@@ -17,6 +17,8 @@ public class PriorityQueueDemo {
 		tasks.add(new Task("Task2", 1));
 		tasks.add(new Task("Task3", 2));
 		
+		System.out.println(tasks);
+		
 		while(!tasks.isEmpty()) {
 			
 			Task task = tasks.poll();
